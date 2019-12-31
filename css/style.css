@@ -1,0 +1,103 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+div.navbar li a {
+    float: right;
+    padding-left: 10px;
+    color: rgba(39, 39, 39, .90);
+    text-decoration: none;
+    
+}
+div.navbar li a:hover {
+    text-decoration: underline;
+    color: rgba(39, 39, 39, .60);
+}
+
+li a {
+    display: block;
+}
+
+div {
+    display: block;
+}
+
+#logo {
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    padding: 100px 0 25px 0;
+    clear: both;
+}
+
+.searchBar {
+    text-align: center;
+}
+input {
+    width: 400px;
+    border-radius: 20px;
+    height: 34px;
+}
+
+.buttons button {
+    background-color: rgba(82, 82, 82, 0.1);
+    font-size: 14px;
+    padding: 10px;
+    border-radius: 7px;
+    margin: 10px;
+    border: none;
+
+}
+.buttons button:hover {
+    border: 1px solid #c6c6c6;
+}
+.fotter-all {
+    background: #f2f2f2;
+    line-height: 40px;
+    min-width: 980px;
+    border-top: 1px solid #e4e4e4;
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    right: 0;
+}
+.footer-right {
+    float: right;
+}
+
+.fotter-country {
+    border-bottom: 1px solid rgba(0,0,0,0.14);
+}
+
+.isItOver {
+    margin-left: 27px;
+}
+span.footer-right a {
+    padding-left: 27px;
+}
+span.footer-left a {
+    padding-left: 27px;
+}
+div.isItOver p {
+    margin: 0 auto;
+    color: rgba(0, 0, 0, 0.356);
+
+}
+
+span a {
+    text-decoration: none;
+    color: rgba(0,0,0,0.54);
+}
+
+span a:visited {
+    color: rgba(0,0,0,0.100);
+}
+span a:hover {
+    text-decoration: underline;
+}
+
+.texting {
+    font-size: 13px;
+}
